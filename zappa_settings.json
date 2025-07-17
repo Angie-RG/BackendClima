@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "django_settings": "Django.settings",
+        "exclude": [
+            "boto3",
+            "dateutil",
+            "botocore",
+            "s3transfer",
+            "concurrent"
+        ],
+        "profile_name": null,
+        "project_name": "backendclima",
+        "runtime": "python3.10",
+        "s3_bucket": "clima-django-hfx7uh97d",
+        "aws_region": "us-east-1",
+        "role_name": "clima-lambda"
+    }
+}
