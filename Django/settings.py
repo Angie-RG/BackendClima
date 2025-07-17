@@ -108,6 +108,8 @@ CORS_ALLOW_HEADERS = list(default_headers) + [
 CORS_ALLOWED_ORIGINS = [
    'http://127.0.0.1:8000',
    'http://localhost:4200',
+   'http://clima-5aciwziej3.s3-website-us-east-1.amazonaws.com',
+   'https://y1g5ecymo0.execute-api.us-east-1.amazonaws.com'
 ]
 
 
